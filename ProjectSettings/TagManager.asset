@@ -11,6 +11,8 @@ TagManager:
   - VicarTag
   - Undefined
   - Water(Clone)
+  - PopBoi
+  - Train
   layers:
   - Default
   - TransparentFX
@@ -20,7 +22,7 @@ TagManager:
   - UI
   - 
   - 
-  - PostProcessing
+  - Player
   - 
   - 
   - 

@@ -25,11 +25,12 @@ public class playerReset : MonoBehaviour {
 
         }
 
-        if (col.gameObject.name == "PopeBoi")
+        if (col.gameObject.tag == "PopBoi")
         {
             Debug.Log("hello");
-            transform.position = new Vector3(-6.852f, 13.8f, -51.423f);
-            SceneManager.LoadScene("devil game");
+            //transform.position = new Vector3(-6.852f, 13.8f, -51.423f);
+            SceneManager.LoadScene("menu");
+
         }
     }
 }
